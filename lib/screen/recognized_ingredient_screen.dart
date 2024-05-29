@@ -157,6 +157,7 @@ class _RecognizedIngredientsScreenState
         .any((ingredient) => widget.recogIngr.contains(ingredient)))
         .toList();
 
+    // 일치하는 재료 수에 따라 정렬
     filteredRecipes.sort((a, b) {
       int aMatchCount = a['ingredients']
           .where((ingredient) => widget.recogIngr.contains(ingredient))
@@ -167,11 +168,13 @@ class _RecognizedIngredientsScreenState
       return bMatchCount.compareTo(aMatchCount);
     });
 
+    // RecipeListScreen으로 이동
     Get.to(() => RecipeListScreen(
       ingredients: widget.recogIngr.toList(),
       recipes: filteredRecipes, // 필터링되고 정렬된 레시피 전달
     ));
   }
+
 
   // 버튼 위젯
   Widget _button({required VoidCallback onPressed, required String title}) {

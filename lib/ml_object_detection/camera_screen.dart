@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void loadModel() async {
-    final modelPath = await getModelPath('assets/ml/model_meta_test.tflite');
+    final modelPath = await getModelPath('assets/ml/model_test.tflite');
     final options = getDetectionOptions(modelPath);
     objectDetector = ObjectDetector(options: options);
   }
