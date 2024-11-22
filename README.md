@@ -52,6 +52,5 @@
 
 ### 3. 영상 설명 및 구동 화면
 
-<iframe width="956" height="538" src="https://www.youtube.com/embed/ozv4q2ov3Mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Video Label](http://img.youtube.com/vi/OP4nHafBLCU/0.jpg)](https://youtu.be/OP4nHafBLCU)
 
