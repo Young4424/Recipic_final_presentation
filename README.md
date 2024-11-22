@@ -50,6 +50,8 @@
 - **모델 개선:** 검증 결과를 바탕으로 모델 구조 및 하이퍼파라미터 조정.
 
 
+### 3. 영상 설명 및 구동 화면
 
+<iframe width="956" height="538" src="https://www.youtube.com/embed/ozv4q2ov3Mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
